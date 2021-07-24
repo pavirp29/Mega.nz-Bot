@@ -3,7 +3,7 @@ services:
   megadl:
     build:
        context: '.'
-       dockerfile: ./Dockerfile
+       dockerfile: ./Dockerfile       
     resources:
         limits:
           cpus: '0.50'
